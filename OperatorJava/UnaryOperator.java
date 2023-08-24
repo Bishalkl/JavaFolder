@@ -19,14 +19,14 @@ public class UnaryOperator {
         // without using 'NOT' operator
         System.out.println("cond1 is " + cond1);
         System.out.println("cond1 is " + cond2);
-        System.out.println("(a < b ) is " + (a < b));
-        System.out.println("(a > b ) is " + (a > b));
+        System.out.println("(b < c ) is " + (a < b));
+        System.out.println("(b > c ) is " + (a > b));
 
         // With using 'NOT' operator
         System.out.println("Now cond1 is " + !cond1);
         System.out.println("Now cond1 is " + !cond2);
-        System.out.println("(a < b ) is " + !(a < b));
-        System.out.println("(a > b ) is " + !(a > b));
+        System.out.println("(b < c ) is " + !(a < b));
+        System.out.println("(b > c ) is " + !(a > b));
 
         // :Increment(++)
         // It is used to increment the value of an integer. It can be used in two seprate ways.
@@ -65,16 +65,6 @@ public class UnaryOperator {
         
         System.out.println(h + "'s bitwise complement = " + ~h);
         System.out.println(i + "'s bitwise complement = " + ~i);
-
-
-
-
-
-
-
-
-
-
 
     }
 }
