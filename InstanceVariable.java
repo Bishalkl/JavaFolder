@@ -21,6 +21,5 @@ public class InstanceVariable{
             System.out.println(d.breed);
             System.out.println(d.cost);
 
-
         }
     }
